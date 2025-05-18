@@ -18,3 +18,8 @@ Recall@k: Measures the proportion of relevant items (positive interactions) foun
 NDCG@k (Normalized Discounted Cumulative Gain): Takes into account the position of relevant items in the ranked list, giving higher scores to relevant items appearing higher in the list.
 
 These metrics focus on ranking quality rather than rating prediction accuracy, aligning with typical collaborative filtering goals.
+
+
+**Results**
+
+The results show that the Neural Collaborative Filtering (NCF) model significantly outperforms the Matrix Factorization (MF) model in both Recall@10 and NDCG@10 metrics. This indicates that NCF is better at accurately ranking relevant items higher in the recommendation list, demonstrating the advantage of deep learning approaches for collaborative filtering tasks.
